@@ -1,7 +1,7 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 interface State {
   answerNumber: number;
@@ -80,4 +80,6 @@ export default new Vuex.Store({
       }
     },
   },
-});
+  modules: {
+  }
+})
